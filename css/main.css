@@ -16,10 +16,23 @@ a {
 
 }
 
+a:hover {
+	color: red;
+}
+
+
 ol {
 	list-style-type: none;
 
 	padding: 0;
+}
+
+blockquote {
+	font-size: 1.5rem;
+}
+
+footer {
+	text-align: right;
 }
 
 .roman-nums{
@@ -28,14 +41,14 @@ ol {
 
 }
 
+figcaption {
+	font-size: .9rem;
+}
+
 ul {
 	list-style-type: circle;
 }
 
-
-a:hover {
-	color: red;
-}
 
 b {
 	color: #79756f;

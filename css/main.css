@@ -1,6 +1,7 @@
 html{
 	background-color: #dbd6cf;
 	font-family: "Arial", sans serif;
+	line-height: 1.5rem;
 }
 
 h1, h2, h3{
@@ -21,10 +22,25 @@ ol {
 	padding: 0;
 }
 
+.roman-nums{
+	list-style-type: lower-roman;
+	padding: 20px;
+
+}
+
+ul {
+	list-style-type: circle;
+}
+
+
 a:hover {
 	color: red;
 }
 
 b {
 	color: #79756f;
+}
+
+dt {
+	font-weight: bold;
 }
